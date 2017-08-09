@@ -15,4 +15,15 @@ func main() {
 	if !*n {
 		fmt.Println()
 	}
+	var b int = 15
+	var a int
+
+	// for a := 0; a < 10; a++ {
+	// 	fmt.Printf("a的值为：%d\n", a)
+	// }
+	fmt.Println(a)
+	for a < b {
+		a++
+		fmt.Printf("a的值为：%d\n", a)
+	}
 }
